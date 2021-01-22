@@ -1,0 +1,80 @@
+/* Global Properties */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+}
+
+/* Home */
+.main-container {
+  background: #000000;
+  font-weight: 400;
+}
+
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #ffffff;
+}
+
+hr {
+  color: #ffffff;
+}
+
+/* Title */
+.secondary-container {
+  height: 100vh;
+  padding: 0 0 140px 0;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+/* Social links */
+.secondary-container ul {
+  margin: 18px 0 30px 0;
+  padding: 0;
+  font-size: 30px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+.secondary-container ul a {
+  color: #fff;
+}
+
+.secondary-container ul a:hover {
+  color: #3477b4;
+}
+
+/* Aligning items in main row */
+.main_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Changing Name Font sixe */
+.main_row h1 {
+  font-size: 5rem;
+}
+
+/* Project Cards*/
+.card {
+  border-bottom: 8px solid #000000;
+}
+
+.contact-container {
+  background: #f2f2f5;
+}
+
+.footer-container {
+  background: #f2f2f5;
+}
+
+/* Skill Bars */
+.progress {
+  height: 27px;
+  margin-bottom: 15px;
+}
